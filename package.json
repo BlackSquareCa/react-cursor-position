@@ -35,7 +35,6 @@
     "LICENCE"
   ],
   "scripts": {
-    "postinstall": "echo 'tttttttt111111'  && yarn build",
     "prepare": "echo 'tttttttt' && yarn build",
     "analyze": "npm run stats && webpack-bundle-analyzer stats.json",
     "build-umd": "webpack -p",
