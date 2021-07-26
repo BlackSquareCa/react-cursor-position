@@ -35,13 +35,13 @@
     "LICENCE"
   ],
   "scripts": {
-    "postinstall": "yarn build",
-    "prepare": "yarn build",
+    "postinstall": "yarn run build",
+    "prepare": "yarn run build",
     "analyze": "npm run stats && webpack-bundle-analyzer stats.json",
     "build-umd": "webpack -p",
     "build-cjs": "cross-env BABEL_ENV=cjs babel src --out-dir dist",
     "build-es": "babel src --out-dir dist/es",
-    "build": "rimraf dist && yarn build-cjs && yarn build-es && yarn build-umd",
+    "build": "rimraf dist && yarn run build-cjs && yarn run build-es && yarn run build-umd",
     "build-watch": "cross-env BABEL_ENV=cjs babel --watch src --out-dir dist",
     "prepublishOnly": "npm run lint && npm test && npm run build",
     "lint": "eslint \"@(src|test)/**/*.js\"",
