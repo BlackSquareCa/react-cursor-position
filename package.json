@@ -1,10 +1,10 @@
 {
-  "name": "react-cursor-position",
-  "version": "3.0.3",
+  "name": "@blacksquare/react-cursor-position",
+  "version": "1.0.0",
   "description": "A React component that decorates its children with touch and mouse cursor coordinates, plotted relative to itself.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethanselzer/react-cursor-position.git"
+    "url": "https://github.com/BlackSquareCa/react-cursor-position.git"
   },
   "keywords": [
     "touch",
@@ -21,8 +21,8 @@
     "track",
     "follow"
   ],
-  "author": "Ethan Selzer <ethanselzer@gmail.com>",
-  "license": "MIT",
+  "author": "Jiadong Hu <jiadong.hu@blacksquare.io>",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/ethanselzer/react-cursor-position/issues"
   },
@@ -35,12 +35,12 @@
     "LICENCE"
   ],
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "yarn build",
     "analyze": "npm run stats && webpack-bundle-analyzer stats.json",
     "build-umd": "webpack -p",
     "build-cjs": "cross-env BABEL_ENV=cjs babel src --out-dir dist",
     "build-es": "babel src --out-dir dist/es",
-    "build": "rimraf dist && npm run build-cjs && npm run build-es && npm run build-umd",
+    "build": "rimraf dist && yarn build-cjs && yarn build-es && yarn build-umd",
     "build-watch": "cross-env BABEL_ENV=cjs babel --watch src --out-dir dist",
     "prepublishOnly": "npm run lint && npm test && npm run build",
     "lint": "eslint \"@(src|test)/**/*.js\"",
