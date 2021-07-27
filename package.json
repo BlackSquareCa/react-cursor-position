@@ -35,7 +35,6 @@
     "LICENCE"
   ],
   "scripts": {
-    "prepare": "npm run build",
     "analyze": "npm run stats && webpack-bundle-analyzer stats.json",
     "build-umd": "webpack -p",
     "build-cjs": "cross-env BABEL_ENV=cjs babel src --out-dir dist",
