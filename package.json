@@ -1,10 +1,10 @@
 {
-  "name": "react-cursor-position",
-  "version": "3.0.3",
+  "name": "bsq/react-cursor-position",
+  "version": "3.0.4",
   "description": "A React component that decorates its children with touch and mouse cursor coordinates, plotted relative to itself.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethanselzer/react-cursor-position.git"
+    "url": "https://github.com/BlackSquareCa/react-cursor-position.git"
   },
   "keywords": [
     "touch",
@@ -21,7 +21,7 @@
     "track",
     "follow"
   ],
-  "author": "Ethan Selzer <ethanselzer@gmail.com>",
+  "author": "Jiadong Hu <jiadong.hu@blacksquare.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethanselzer/react-cursor-position/issues"
