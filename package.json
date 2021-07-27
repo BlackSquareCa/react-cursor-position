@@ -1,5 +1,5 @@
 {
-  "name": "bsq/react-cursor-position",
+  "name": "@bsq/react-cursor-position",
   "version": "3.0.4",
   "description": "A React component that decorates its children with touch and mouse cursor coordinates, plotted relative to itself.",
   "repository": {
